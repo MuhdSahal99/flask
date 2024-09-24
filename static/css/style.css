@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 2rem;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+}
+
+#recommendations, #matches {
+    background-color: #ffffff;
+    border-radius: .3rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.recommendation, .match {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem 0;
+}
+
+.recommendation:last-child, .match:last-child {
+    border-bottom: none;
+}

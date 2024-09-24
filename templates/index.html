@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Job Matcher - Home{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Job Matcher</h1>
+    <p class="lead">Find the perfect job or the ideal candidate with our advanced matching system.</p>
+    <hr class="my-4">
+    <p>Choose your path:</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('candidate') }}" role="button">I'm a Candidate</a>
+    <a class="btn btn-secondary btn-lg" href="{{ url_for('employer') }}" role="button">I'm an Employer</a>
+</div>
+{% endblock %}

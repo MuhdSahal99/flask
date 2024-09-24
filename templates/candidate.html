@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Job Matcher - Candidate{% endblock %}
+
+{% block content %}
+<h1>Candidate Job Matcher</h1>
+<form id="candidateForm" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="resumeFile" class="form-label">Upload your resume (PDF or DOCX)</label>
+        <input class="form-control" type="file" id="resumeFile" name="resume" accept=".pdf,.docx" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Find Matching Jobs</button>
+</form>
+<div id="recommendations" class="mt-4"></div>
+{% endblock %}
