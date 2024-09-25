@@ -1,1 +1,49 @@
-jobprojectenv
+jobprojectenv# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+jobprojectenv/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+
+# MacOS
+.DS_Store
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# SQLite databases
+*.sqlite3
+
+# Log files
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
